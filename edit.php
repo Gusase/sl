@@ -115,3 +115,4 @@ show_html:
     <input type="submit" name="save" value="Save">
   </label>
 </form>
+<span onclick="window.location='profile.php'" style="cursor: pointer;">Back</span>

@@ -13,7 +13,6 @@ $pdo = require __DIR__ . '/db.php';
 $st = $pdo->prepare("SELECT `first_name` FROM `users` WHERE `id` = ?");
 $st->execute([$_SESSION['user']]);
 $st = $st->fetch(\PDO::FETCH_ASSOC);
-
 ?>
 
 <!DOCTYPE html>
